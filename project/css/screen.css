@@ -1,0 +1,120 @@
+body {
+    background-color: #1d3c1c;
+    background-size: 100%;
+    background-position: center;
+}
+p {
+    margin: 0;
+}
+.col-sm-2 {
+    padding: 0 !important;
+}
+.col-sm-8 {
+    padding: 0 !important;
+}
+.btn-danger {
+    background: url("../image/speaker.png") no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: -20px;
+    border: 0;
+    background-color: #1d3c1c !important;
+    box-shadow: none !important;
+}
+.btn-danger:active{
+    transform:translate(0,4px) !important;
+    -webkit-transform:translate(0,4px) !important;
+  }
+.btn-warning {
+    background: url("../image/out.png") no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: none !important;
+    border: 0px !important;
+    background-color: #1d3c1c !important;
+}
+.btn-warning:active{
+    transform:translate(0,4px) !important;
+    -webkit-transform:translate(0,4px) !important;
+  }
+.btn-info {
+    background: url("../image/arrow.png") no-repeat ;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    box-shadow: none !important;
+    border: 0px !important;
+    background-color: #1d3c1c !important;
+    padding: 0 !important;
+}
+.btn-info:active{
+    transform:translate(0,4px) !important;
+    -webkit-transform:translate(0,4px) !important;
+  }
+.btn-success {
+    background: url("../image/arrowr.png") no-repeat ;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    box-shadow: none !important;
+    border: 0px !important;
+    background-color: #1d3c1c !important;
+    padding: 0 !important;
+}
+.btn-success:active{
+    transform:translate(0,4px) !important;
+    -webkit-transform:translate(0,4px) !important;
+  }
+.image {
+	height:35%;
+    width: 35%;
+}
+.images {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.Picture {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Eng {
+	text-align: center;
+	font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+}
+.Spell {
+	text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+}
+.Example {
+	text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+}
+.Mean {
+	text-align: center;
+	font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+}
+.kind {
+	font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+

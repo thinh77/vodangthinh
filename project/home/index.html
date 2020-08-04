@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <a href="../menu.html" class="btn btn-info">Vocabulary</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="btn btn-info">Game</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="btn btn-info">3</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="btn btn-info">4</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="btn btn-info">5</a>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    <script type="text/javascript" src="swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 60,
+            stretch: 10,
+            depth: 500,
+            modifier: 5,
+            slideShadows: true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+</body>
+</html>

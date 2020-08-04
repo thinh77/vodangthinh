@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="#" class="btn" id="btn_back"></a>
+            </div>
+            <div class="col-sm-6">
+                <table>
+                    <tr>
+                        <th class="th" id="th1"></th>
+                        <th class="th" id="th2"></th>
+                        <th class="th" id="th3"></th>
+                        <th class="th" id="th4"></th>
+                        <th class="th" id="th5"></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+    <div class="container-fluid game">
+        <div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 ">
+				<img src="img/jerry.jpg" id="game">
+			</div>
+			<div class="col-sm-2">
+				<button type="button" class="btn btn-danger" onclick="changethBg('red');" id="btn_next"></button>
+			</div>
+		</div>
+    </div>
+    <div id="bot" class="container-fluid">
+        <div id="progressBar">
+			<span></span>
+		</div>
+    </div>
+</body>
+
+</html>
+<script src="jquery.min.js"></script>
+<script src="time.js"></script>
+<script async src="jquery.min.js"></script>
+<script async src="time.js"></script>
+<script>
+    function changethBg(color){
+        document.getElementById("th1").style.backgroundColor = color;
+        var script = document.createElement("script")
+        script.setAttribute("async","1")
+        script.setAttribute("src","jquery.min.js")
+        document.body.appendChild(script)
+        var script2 = document.createElement("script")
+        script2.setAttribute("async","1")
+        script2.setAttribute("src","time.js")
+        document.body.appendChild(script2)
+    }
+</script>
